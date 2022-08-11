@@ -7,7 +7,7 @@ int main(){
 	
 	cout<<"Digite un numero: "; cin>>numero;
 	
-	if(numero <= dato){
+	if(numero == dato){
 		cout<<"El numero es menor o igual a 5";
 	}
 	else{
