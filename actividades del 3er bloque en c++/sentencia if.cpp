@@ -3,20 +3,23 @@
 using namespace std;
 
 int main(){
-	int numero, dato = 5;
+	int edad, cantidadCigarros = 5;
+	
+	cout<<"Digite su edad: "; cin>>edad;
 
-	cout<<"Digite un numero: "; cin>>numero;
-
-	if(numero == dato){
-		cout<<"El numero es 5";
+	if(edad >= 18 ){
+		cout<<"\nUsted es mayo de Edad"<<endl;
+		if(cantidadCigarros > 0 ){
+		cout<<"\nEs tanto"<<endl;
+		}
+		else{
+			cout<<"\nNo hay cigarros"<<endl;
+		}
+	
 	}
 	else{
-		cout<<"El numero no es 5";
+		cout<<"\nUsted es menor de edad"<<endl;
 	}
-
-
-
-
 
 	return 0;
 	}
