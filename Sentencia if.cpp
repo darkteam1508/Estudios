@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int sueldo = 3000;
+	int sueldo = 0;
 	
 	cout<<"digite su sueldo: "; cin>>sueldo;
 	
